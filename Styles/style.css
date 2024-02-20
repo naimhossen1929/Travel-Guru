@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../Images/back1.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    animation: change 20s infinite ease;
+}
+@keyframes change{
+    0%{
+        background-image: url('../Images/back1.jpg');
+    }
+    20%{
+        background-image: url('../Images/back2.jpg');
+    }
+    
+
+}
+.logo{
+    color: #fabd02;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+span{
+    color: white;
+}
+.btn{
+    text-transform: capitalize;
+    text-decoration: none;
+    background-color: #fabd02;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 14px;
+    color: black;
+    cursor: pointer;
+}
+.nav{
+    height: 15%;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.header-main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+.text h1{
+    color: #fabd02;
+    letter-spacing: 2px;
+    font-weight: 800;
+    font-size: 60px;
+}
+.text p{
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+.btn-1{
+    text-decoration: none;
+    background-color: #fabd02;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin: 0px 40px;
+    color: black;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-2{
+    text-decoration: none;
+    background-color:white;
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 14px;
+    margin: 0px 40px;
+    color: black;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn:hover{
+    
+    background-color:white;
+    border: 1px solid #fabd02;
+    transition: 0.5s;
+}
+.btn-1:hover{
+    background-color:white;
+    border: 1px solid #fabd02;
+    transition: 0.5s;
+}
+.btn-2:hover{
+    background-color:#fabd02;
+    border: 1px solid white ;
+    color: white;
+    transition: 0.5s;
+}
